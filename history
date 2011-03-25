@@ -1,0 +1,179 @@
+http://fierce-cloud-271.heroku.com
+
+  472  cd Documents/
+  473  cd ..
+  474  cd -
+  475  ls
+  476  cd workspace-helios/
+  477  ls
+  478  cd Ruby_dev
+  479  ls
+  480  cd ch04
+  481  ls
+  482  cd first
+  483  ls
+  484  ls script
+  485  rails server
+  486  rails server
+  487  cd Documents/
+  488  ls
+  489  cd Career
+  490  ls
+  491  cd SW E
+  492  cd SW\ Engineering/
+  493  ls
+  494  cd Ruby
+  495  ls
+  496  ls
+  497  cd blog
+  498  rails 
+  499  /Applications/MacVim-7_3-53/mvim ; exit;
+  500  /Applications/mvim ; exit;
+  501  git help
+  502  rails -v
+  503  git -h
+  504  pw
+  505  pwd
+  506  cd Documents/workspace-helios/Ruby_first/app/views
+  507  which gen
+  508  which gem
+  509  gem update --system
+  510  git status
+  511  cd ../..
+  512  ls
+  513  cd ..
+  514  ls
+  515  cd Ruby_tutorial
+  516  ls
+  517  git user.name
+  518  hit --help
+  519  git --help
+  520  git show user.name
+  521  history
+  522  git init
+  523  vi .gitignore
+  524  git add .
+  525  git status
+  526  git commit -m "Initial commit 3/24/11."
+  527  git log
+  528  cd ~/.ssh
+  529  ls
+  530  lt 
+  531  cat known_hosts
+  532  ls
+  533  ll
+  534  ls -a
+  535  ls
+  536  ssh-keygen -t rsa -C "AllanGoff@NovatiaLabs.com"
+  537  ls
+  538  vi id_rsa.pub
+  539  cd -
+  540  ssh git@github.com
+  541  cd -
+  542  ls
+  543  cat known_hosts 
+  544  cd -
+  545  git config --global github.user AllanGoff
+  546  git config --global github.token 3900f27e4d851c9c732e981eb02d1946
+  547  git status
+  548  git remote add origin git@github.com:AllanGoff/first_app.git
+  549  git push origin master
+  550  git branch
+  551  git status
+  552  git checkout -b modify-README
+  553  git branch
+  554  ls
+  555  cat README
+  556  git mv README README.markdown
+  557  git status
+  558  vi README.markdown 
+  559  git status
+  560  git commit -a -m "Improved the README file."
+  561  git status
+  562  git branch
+  563  git checkout master
+  564  ls
+  565  rm README
+  566  ls
+  567  git checkout master
+  568  git branch
+  569  git merge modify-README
+  570  git branch -d modify-README
+  571  git branch
+  572  git push
+  573  gem install heroku
+  574  sudo gem install heroku
+  575  cd -
+  576  ls
+  577  cat id_rsa.pub
+  578  cd -
+  579  heroku keys:add
+  580  heroku create
+  581  git push heroku master
+  582  heroku open
+  583  history | grep git
+  584  history | grep heroku
+  585  history | grep gem
+  586  history | grep rails
+  587  history | grep ruby
+  588  history | grep sudo
+  589  history | grep github
+  590  cd ..
+  591  ls
+  592  ls Rails_demo_app/
+  593  cd Rails_demo_app/
+  594  ls
+  595  cd ..
+  596  rm Rails_demo_app/
+  597  rmdir Rails_demo_app/
+  598  rm -r Rails_demo_app/
+  599  rails Rails_demo_app
+  600  rails new Rails_demo_app
+  601  lt
+  602  cd Rails_demo_app/
+  603  cd ..
+  604  rm -r Rails_demo_app/
+  605  rails new Rails_demo_app
+  606  cd Rails_demo_app/
+  607  lt
+  608  bundle install
+  609  git init
+  610  git add .
+  611  git commit -m "Initial commit."
+  612  git remote add origin git@github.com:AllanGoff/Rails_demo_app.get
+  613  git push origin master
+  614  git remote add origin git@github.com:AllanGoff/Rails_demo_app.git
+  615  git remote delete origin git@github.com:AllanGoff/Rails_demo_app.get
+  616  git remote add origin git@github.com:AllanGoff/Rails_demo_app
+  617  git push origin master
+  618  git remote rm origin git@github.com:AllanGoff/Rails_demo_app.get
+  619* git remote rename git@github.com:AllanGoff/Rails_demo_app.get
+  620  git remote rm Rails_demo_app.get
+  621  git remote rm git@github.com:AllanGoff/Rails_demo_app.get
+  622  git remote rm git@github.com:AllanGoff/Rails_demo_app
+  623  git remote rm git@github.com:AllanGoff/Rails_demo_app.git
+  624  git remote add origin git@github.com:AllanGoff/demo_app.git
+  625  git remote rename git@github.com:AllanGoff/Rails_demo_app.get git@github.com:AllanGoff/Rails_demo_app.git
+  626  git remote rename Rails_demo_app.get Rails_demo_app.git
+  627  git remote add origin git@github.com:AllanGoff/demo_app.git
+  628  git push origin master
+  629  git remote rm origin
+  630  git remote add origin git@github.com:AllanGoff/Rails_demo_app.git
+  631  git push origin master
+  632  rails generate scaffold User name:string email:string
+  633  rake db:migrate
+  634  rails generate scaffold Micropost content:string user_id:integer
+  635  rake db:migrate
+  636  ls
+  637  rails console
+  638  git add .
+  639  git commit -a -m 
+  640  git commit -a -m "Done with the demo app."
+  641  git push
+  642  heroku create
+  643  git push heroku master
+  644  heroku rake db:migrate
+  645  sudo gem install taps
+  646  heroku db:push
+  647  history
+[648 ~/Documents/workspace-helios/Rails_demo_app] $ 
